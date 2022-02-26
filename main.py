@@ -7,40 +7,6 @@ import pygame
 from collections import deque
 import os
 
-########################################################################################################################
-#                                                                                                                      #
-# Maze Game                                                                                                            #
-# Popa Daniel                                                                                                          #
-# CEN 2.2B                                                                                                             #
-# Homework number 3                                                                                                    #
-# OOP python                                                                                                           #
-# Problem 11                                                                                                           #
-#                                                                                                                      #
-# The code does the following:                                                                                         #
-# - it has a player as a dot                                                                                           #
-# - it has another dot which is the enemy/computer which follows the player                                            #
-# - it has treasures, but not friends                                                                                  #
-# - it has and end point                                                                                               #
-#                                                                                                                      #
-# The code lacks the following:                                                                                        #
-# - uppon pressing "q" the game does not stop, but it does stop when pressing "Esc"                                    #
-# - does not have friends                                                                                              #
-# - does not have show_location function                                                                               #
-# - does not have fight mechanic                                                                                       #
-# - does not have health bar                                                                                           #
-# - does not have doors                                                                                                #
-# - does not have another map which can be accesed by entering a door or a point                                       #
-# - does not have help button                                                                                          #
-# - does not have save/load buttons                                                                                    #
-# - does not have drop treasure                                                                                        #
-# - does not have different types of rooms, as well as not having a class Room                                         #
-#                                                                                                                      #
-# Basically it is a simple maze game simulating a escape mode                                                          #
-# With points needed to be gathered in order to finish the maze, while stepping into the end point                     #
-# It uses OOP, not everything related to OOP                                                                           #
-#                                                                                                                      #
-########################################################################################################################
-
 #this function puts the window of the game in a certain position on the screen
 def set_window_position(x, y):
 
